@@ -1,0 +1,24 @@
+node_modules
+.DS_Store
+coverage
+results/
+site/dist
+.idea
+es
+lib
+dist
+yarn.lock
+esm
+cjs
+robotMsg
+.gitlogmap
+_site/
+package-lock.json
+pnpm-lock.yaml
+temp*
+robotMsg.json
+.nyc_output
+cypress-coverage
+instrumented
+# Local Netlify folder
+.netlify

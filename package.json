@@ -1,0 +1,16 @@
+{
+  "name": "cyber-ui-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "npm run -C packages/element-ui dev && npm run -C docs docs:dev",
+    "build": "npm run -C packages/element-ui docs:build && npm run -C docs docs:build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
