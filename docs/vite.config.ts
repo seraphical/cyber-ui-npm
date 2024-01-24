@@ -7,6 +7,7 @@ import { alias } from '../scripts';
 export default defineConfig(async ({ command, mode }) => {
   return {
     server: {
+      hmr: true,
       proxy: {
         '/assets': {
           target: 'http://localhost:8080',

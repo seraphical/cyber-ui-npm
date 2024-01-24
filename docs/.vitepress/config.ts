@@ -10,7 +10,7 @@ export default defineConfig({
     logo: '/favicon.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'vue2', link: '/src/vue2/guides/code-specification' },
+      { text: 'vue2', link: '/src/vue2/guides/log' },
       { text: 'vue3', link: '/src/vue3/guides/code-specification' },
       { text: 'react', link: '/src/react/index' },
       { text: '工具文档', link: '/src/tools/regexp' },

@@ -6,13 +6,13 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   routes: [
     {
-      path: '/demo-table',
-      component: () => import('./table/demo-table.vue'),
-      name: 'DemoTable',
+      path: '/demo-card',
+      component: () => import('./card/demo-card.vue'),
+      name: 'DemoCard',
     },
     {
       path: '/:pathMatch(.*)*',
-      redirect: '/demo-table',
+      redirect: '/demo-card',
     },
   ],
 });

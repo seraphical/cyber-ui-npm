@@ -1,2 +1,1 @@
-export * from './table';
-export * from './select';
+export { default } from './cyber-ui';

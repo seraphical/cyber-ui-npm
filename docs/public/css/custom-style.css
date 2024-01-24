@@ -3,18 +3,18 @@ body {
 }
 
 :root {
-  --vc-primary-color: #295dfa;
-  --vc-primary-hover-color-lighter: #547dfb;
-  --vc-primary-hover-color: #053eeb;
-  --vc-border-color: #dcdfe6;
-  --vc-border-radius-base: 6px;
-  --vc-example-padding: 24px;
+  --cy-primary-color: #295dfa;
+  --cy-primary-hover-color-lighter: #547dfb;
+  --cy-primary-hover-color: #053eeb;
+  --cy-border-color: #dcdfe6;
+  --cy-border-radius-base: 6px;
+  --cy-example-padding: 24px;
 }
 
 :root {
-  --vp-c-brand: var(--vc-primary-color);
-  --vp-c-brand-light: var(--vc-primary-hover-color);
-  --vp-c-brand-lighter: var(--vc-primary-hover-color-lighter);
-  --vp-c-brand-dark: var(--vc-primary-color);
-  --vp-c-brand-darker: var(--vc-primary-hover-color);
+  --cy-c-brand: var(--cy-primary-color);
+  --cy-c-brand-light: var(--cy-primary-hover-color);
+  --cy-c-brand-lighter: var(--cy-primary-hover-color-lighter);
+  --cy-c-brand-dark: var(--cy-primary-color);
+  --cy-c-brand-darker: var(--cy-primary-hover-color);
 }

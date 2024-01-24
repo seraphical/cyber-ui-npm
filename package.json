@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "npm run -C packages/element-ui dev && npm run -C docs docs:dev",
+    "start": "npm run -C packages/element-ui dev",
+    "docs": "npm run -C docs docs:dev",
     "build": "npm run -C packages/element-ui docs:build && npm run -C docs docs:build"
   },
   "keywords": [],

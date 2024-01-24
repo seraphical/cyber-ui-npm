@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: Vue2
-      link: /src/vue2/guides/code-specification
+      link: /src/vue2/guides/log
     - theme: brand
       text: Vue3
       link: /src/vue3/guides/code-specification

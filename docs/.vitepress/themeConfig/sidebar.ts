@@ -2,10 +2,7 @@ export const sidebar = {
   '/src/vue2/': [
     {
       text: '开发指南',
-      items: [
-        { text: 'vue2开发规范', link: '/src/vue2/guides/code-specification' },
-        { text: '日志', link: '/src/vue2/guides/log' },
-      ],
+      items: [{ text: '日志', link: '/src/vue2/guides/log' }],
     },
     {
       text: '组件',
@@ -32,7 +29,6 @@ export const sidebar = {
     {
       text: '开发指南',
       collapsed: false,
-
       items: [
         { text: 'react规范', link: '' },
         { text: '日志', link: '' },

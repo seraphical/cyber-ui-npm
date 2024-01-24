@@ -13,6 +13,7 @@ export default defineConfig(async ({ command, mode }) => {
   }
   return {
     server: {
+      hmr: true,
       port: '3000',
     },
     plugins: [createVuePlugin()],
@@ -30,6 +31,6 @@ export default defineConfig(async ({ command, mode }) => {
     resolve: {
       alias: await alias(),
     },
-    ...docsBuild,
+    ...docsBuild, //将整个项目打包到 vitepress 中
   };
 });

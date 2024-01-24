@@ -4,8 +4,14 @@ import 'element-ui/lib/theme-chalk/index.css';
 import router from './router';
 import App from './App.vue';
 
-Vue.use(ElementUI, { size: 'small' });
+//global
 
+import CyberUi from '../dist/cy-element-ui.mjs';
+import '../dist/style.css';
+console.log(CyberUi);
+
+Vue.use(ElementUI, { size: 'small' });
+Vue.use(CyberUi);
 new Vue({
   el: '#app',
   router,

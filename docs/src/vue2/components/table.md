@@ -5,7 +5,7 @@
 
 
 <cy-demo
-    source-code="element-ui:::table/demo-table"
+    source-code="element-ui:::card/demo-card"
 />
 
 ## Table 属性
