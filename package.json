@@ -9,7 +9,7 @@
   "scripts": {
     "start": "npm run -C packages/element-ui dev",
     "docs": "npm run -C docs docs:dev",
-    "build": "npm run -C packages/element-ui docs:build && npm run -C docs docs:build"
+    "build": " npm run -C docs docs:build &&  npm run -C packages/element-ui docs:build"
   },
   "keywords": [],
   "author": "",

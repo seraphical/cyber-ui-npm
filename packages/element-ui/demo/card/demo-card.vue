@@ -1,5 +1,5 @@
 <template>
-  <cy-card title="我是 card"> fadsfadsdfdasfsad </cy-card>
+  <cy-card title="我是 card"> fadsfadsfdasfadsdfdasfsad </cy-card>
 </template>
 <script>
 export default {};
