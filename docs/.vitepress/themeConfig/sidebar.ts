@@ -22,7 +22,7 @@ export const sidebar = {
       text: '组件',
       collapsed: false,
 
-      items: [],
+      items: [{ text: 'test', link: '/src/vue3/components/test' }],
     },
   ],
   '/src/react/': [

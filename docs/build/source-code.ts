@@ -8,6 +8,14 @@ loadLanguages(['markup', 'css', 'javascript']);
 
 const packagesPath = path.resolve(__dirname, '../../packages/');
 
+const warp = (code: string) => `<pre v-pre><code>${code}</code></pre>`;
+
+function sourceSplit(_: string) {
+  const result = /.*?source-code="(.*)"/.exec(_);
+  const originPath = (result && result[1]) ?? '';
+  return originPath.split(':::');
+}
+
 const sourceCode = () => {
   return {
     async transform(src: string, id: string) {
@@ -17,6 +25,7 @@ const sourceCode = () => {
       const reg = /source-code="(.*)"/g;
 
       if (!src.match(reg)) return;
+      console.log(src, 'srcccc');
 
       const match = src.match(reg)?.map((_) => {
         const [packageName, compPath] = sourceSplit(_);
@@ -48,13 +57,5 @@ const sourceCode = () => {
     },
   };
 };
-
-const warp = (code: string) => `<pre v-pre><code>${code}</code></pre>`;
-
-function sourceSplit(_: string) {
-  const result = /.*?source-code="(.*)"/.exec(_);
-  const originPath = (result && result[1]) ?? '';
-  return originPath.split(':::');
-}
 
 export default sourceCode;

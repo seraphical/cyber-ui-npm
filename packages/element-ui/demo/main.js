@@ -5,11 +5,10 @@ import router from './router';
 import App from './App.vue';
 
 //global
-
 import CyberUi from '../dist/cy-element-ui.mjs';
 import '../dist/style.css';
-console.log(CyberUi);
 
+console.log(CyberUi, 'CyberUiCyberUi');
 Vue.use(ElementUI, { size: 'small' });
 Vue.use(CyberUi);
 new Vue({

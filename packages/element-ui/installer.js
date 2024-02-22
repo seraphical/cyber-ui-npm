@@ -1,7 +1,4 @@
-import { CyTable } from './components/table';
-
-console.log(CyTable, 'CyTableCyTableCyTableCyTable');
-const elmUiComponents = [CyTable];
+const elmUiComponents = [];
 
 export const installer = (Vue) => {
   elmUiComponents.forEach((comp) => {

@@ -102,11 +102,7 @@ const baseUrl = {
   'ant-design': import.meta.env.VITE_ANT_DEV_BASE,
 };
 
-const iconColorArr = [
-  { name: '', color: '#fe5f57' },
-  { name: '', color: '#ffbc2d' },
-  { name: 'scale', color: '#27c83e' },
-];
+const iconColorArr = [{ name: 'scale', color: '#27c83e' }];
 
 const isFullScreen = ref(false);
 const isShowCode = ref(false);
