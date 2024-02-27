@@ -13,7 +13,7 @@
   "license": "ISC",
   "peerDependencies": {
     "vue": "^3.2.0",
-    "element-plus": "^2.2.0"
+    "element-plus": "^2.3.0"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.6",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
-    "element-plus": "^2.2.8",
+    "element-plus": "^2.3.8",
     "vue": "^3.2.36",
     "vue-router": "4",
     "less": "^4.1.3"
