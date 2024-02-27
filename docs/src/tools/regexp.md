@@ -1,15 +1,4 @@
- 
-**Output**
-::: tip
-- 构造函数创建正则需要两次转义
--  [] 中不需要转义
--  ?代表非贪婪匹配
-- exec 是正则的, match 是 string 的, 都只匹配一次, /g 可以匹配所有
-- 使用群组的时候( ), 不能使用/g, match 和 exec 可以默认匹配所有
-- {}中代表重复
-- 使用^$表示只能
-- replace(参数1, 参数 2), 参数 2 中能拿到 item, 捕获的参数$n, string, 使用参数 2 将参数 1 匹配到的内容进行替换(此时 match 可以和/g 同用)
-:::
+
 
 # 一. 正则基础
 ## 1.1 正则创建方式
@@ -82,20 +71,7 @@ str = str.replace(/a./g,(item,index,s)=>{
 })
 console.log(str);
 ```
-```js
-const str = 'abcde';
-console.log(str.search(/a/));   //0
-```
-## 3.3 replace( )
-- 高频使用方法, ==替换方法==
-```js
-var str = 'abacadae'//替换成a1a2a3a4
-var i = 0;
-str = str.replace(/a./g,(item,index,s)=>{
-    return 'a'+i++;
-})
-console.log(str);
-```
+
 
 ## 3.4 split( )
 - 切割, 使用正则切割
